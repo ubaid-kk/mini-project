@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* body{
+    background-color: #fbfbfb;
+} */
+.navbar{
+    background-color: rgb(16, 16, 16);
+    overflow: auto;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    color: white;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    left: 30%;
+    font-size: 20px;
+    margin: 14px 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+}
+.navbar li a:hover{
+    background-color: whitesmoke;
+    color: rgb(16, 16, 16);
+}
+/* main content css yaha hai bhai/bahen */
+.macbook{
+    background-image: url("https://www.apple.com/v/macbook-air-13-and-15-m2/b/images/overview/design/design-hero_endframe__olurqzgtbh6e_large.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    background-size: 1200px;
+    background-position: 350px 0px;
+    height: 600px;
+    font-size: 30px;
+    margin: 100px 0px 0px 0px;
+}
+.macbook a{
+    color: black;
+}
+.btn, .btn a{
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(0, 81, 255);
+    margin-top: 5px;
+    font-size: 14px;
+}
+.mac-studio{
+    background-image: url("/home/mac-studio.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-position: 710px 150px;
+    margin: 100px 0px 0px 0px;
+    background-size: 500px;
+    height: 600px;
+}
+.mac-pro{
+    background-image: url("/home/macpro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    height: 600px;
+}
+.sell{
+    background-color: whitesmoke;
+}
+.sh1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.macs{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1,300px);
+    justify-content: center;
+    grid-column-gap: 10px;
+    margin-top: 150px;
+    cursor: pointer;
+    height: 500px;
+}
+.macimg{
+    background-color: rgba(16, 16, 16, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 25px;
+}
+#mac13{
+    background-image: url("/home/mac-13.png");
+    background-size: 200px;
+    background-position: 55px 80px;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+#mac15{
+    background-image: url("/home/mac-15.png");
+    background-size: 250px;
+    background-position: 26px 65px;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+#macpro13{
+    background-image: url("/home/mac-13.png");
+    background-size: 200px;
+    background-position: 55px 80px;
+    background-repeat: no-repeat;
+
+    padding: 20px;
+}
+#macpro15{
+    background-image: url("/home/mac-15.png");
+    background-size: 250px;
+    background-position: 26px 65px;
+    background-repeat: no-repeat;
+
+    padding: 20px;
+}
+.box1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(5,auto);
+    margin-top: 60px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.savmac{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 40px;
+}
+#savmac1{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-image: url("/home/savmac.jpg");
+    background-size: 800px;
+    background-position: 500px 20px;
+    background-color: #f5f2f2;
+    background-repeat: no-repeat;
+    height: 650px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(27, 112, 223);
+}
+#savmac2{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url("/home/banner.jpg");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 200px 120px;
+    background-color: black;
+    height: 650px;
+}
+.mc2t{
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 370px;
+    font-size: 20px;
+}
+#savmac3{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url("/home/savmac-2.jpg");
+    background-size: 1000px;
+    background-position: 244px 150px;
+    background-color: #f5f2f2;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+#savmac4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 500px;
+    padding: 300px;
+}
+#savmac5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 500px;
+    padding: 300px;
+}
